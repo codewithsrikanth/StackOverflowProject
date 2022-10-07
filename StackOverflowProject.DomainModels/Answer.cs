@@ -20,6 +20,8 @@ namespace StackOverflowProject.DomainModels
         public virtual User User { get; set; }
 
         public virtual List<Vote> Votes { get; set; }
+
+        public int xyz { get; set; }
     }
 }
 
